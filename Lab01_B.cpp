@@ -7,10 +7,10 @@ int main()
     string T, P;
 
     cout << "Enter text: ";
-    cin >> T;
+    getline(cin, T);
 
     cout << "Enter pattern: ";
-    cin >> P;
+    getline(cin, P);
 
     int n = T.length();
     int m = P.length();
