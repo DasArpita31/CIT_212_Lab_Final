@@ -56,17 +56,14 @@ void POLISH(string Q) {
                 s.pop();
             }
 
-            s.pop(); // remove '('
+            s.pop();
         }
     }
 
     cout << "Postfix Expression = " << p << endl;
 }
-
 int main() {
-
     string Q;
-
     cout << "Enter Infix Expression: ";
     cin >> Q;
 
